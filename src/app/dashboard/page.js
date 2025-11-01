@@ -337,6 +337,8 @@
 //     padding: "0 40px 40px 40px",
 //   },
 // };
+"use client";
+
 export default function Dashboard() {
   return (
     <Suspense
