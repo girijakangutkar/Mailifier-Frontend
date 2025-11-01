@@ -4,8 +4,7 @@ import { useEffect, useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import EmailList from "@/components/EmailList";
 
-// Separate component that uses useSearchParams
-function DashboardContent() {
+export default function DashboardContent() {
   const [emails, setEmails] = useState([]);
   const [filteredEmails, setFilteredEmails] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
